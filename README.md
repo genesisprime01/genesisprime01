@@ -1,65 +1,93 @@
+<div align="center">
+
 # Hasan M.H.
 
-### Founder · Product Architect · Systems Builder
+### I turn lived operational problems into software people can trust.
 
-I build software for problems that are too operationally important to leave to
-spreadsheets, disconnected tools, or guesswork.
+Founder · Product architect · Systems builder · NDIS domain practitioner
 
-I am the founder and primary creator of **Nexis365** — a multi-tenant operations
-platform for Australian disability service providers. It brings rostering,
-participant operations, NDIS funding, invoicing, SCHADS payroll, compliance,
-forms, and auditability into one system.
+[Nexis365](https://nexis365.com.au) · [Nexis365 V2](https://github.com/genesisprime01/nexis365-v2)
 
-## The story
+</div>
 
-I spent three years as a National Operations Manager inside an Australian NDIS
-provider. I saw the cost of fragmented systems first-hand: payroll errors,
-double billing, rejected claims, disconnected compliance registers, and teams
-making high-stakes decisions from spreadsheets that were never in sync.
+---
 
-Nexis365 started as my first attempt to fix those problems. I founded it, scoped
-the product, designed the workflows, and built the domain model with engineers.
-The current V2 is the rewrite I always wanted: a deliberate platform designed
-around the realities of NDIS operations, Australian data residency, traceable
-financial workflows, and multi-tenant safety.
+## The short version
 
-## What I am building
+I build products from the inside out — starting with the person doing the work,
+the decision they need to make, and the failure we cannot afford.
 
-- **Nexis365 V2** — NDIS operations, rostering, invoicing, SCHADS payroll,
-  compliance, forms, and audit trails.
-- **Nexis365 fleet** — a disciplined agentic engineering workflow for research,
-  planning, implementation, verification, and delivery.
-- **Product and workflow systems** — practical automation that gives operators
-  better information, safer decisions, and fewer manual hand-offs.
+My main work is **Nexis365**, a multi-tenant operations platform for Australian
+NDIS providers. It connects rostering, participant operations, NDIS funding,
+invoicing, SCHADS payroll, compliance, forms, and audit trails in one system.
 
-## How I think about engineering
+## Why Nexis365 exists
+
+Before I was building the platform, I spent three years as a National Operations
+Manager inside an Australian NDIS provider. I watched good people make difficult
+decisions with disconnected tools:
+
+- payroll errors hidden in overnight shifts;
+- claims rejected weeks after the work was done;
+- participants double-billed because two people created drafts at once;
+- compliance registers spread across laptops and spreadsheets;
+- teams spending their best hours reconciling systems instead of helping people.
+
+Nexis365 began as my attempt to fix those problems. I founded it, shaped the
+product, designed the workflows, and built the domain model with engineers who
+understood the work alongside me. V2 is the rewrite: more deliberate, more
+auditable, and designed for the scale and responsibility NDIS operations demand.
+
+## What I am building now
+
+### Nexis365 V2
+
+The core platform: rostering, participant plans, funding buckets, invoicing,
+SCHADS payroll, compliance, forms, audit events, and multi-tenant delivery.
+
+### The Nexis365 fleet
+
+A practical agentic engineering system for research, planning, building,
+testing, reviewing, and shipping. The goal is not “AI for its own sake.” The
+goal is a tighter feedback loop and better decisions with a human still in
+control.
+
+### The next layer
+
+Automation that removes repetitive reconciliation, gives operators earlier
+signals, and makes the important parts of the business easier to see.
+
+## My non-negotiables
 
 ```text
+Start with the real workflow.
 Make the domain explicit.
-Keep money in integer cents.
 Put tenant scope first.
+Keep money in integer cents.
 Make every mutation auditable.
 Prefer reversible, evidence-backed actions.
-Build for the person doing the real work.
+Never let the interface hide the consequence.
 ```
 
-## Current stack
+## The tools behind the work
 
-`Next.js` · `Hono` · `TypeScript` · `Prisma` · `Postgres/Neon` · `Clerk` ·
+`TypeScript` · `Next.js` · `Hono` · `Prisma` · `Postgres` · `Neon` · `Clerk` ·
 `Vercel` · `Railway` · `Cloudflare` · `Stripe` · `Resend` · `Trigger.dev` ·
 `Vitest` · `Playwright` · `pnpm` · `Turbo`
 
-## Explore
+## Start here
 
-- [Nexis365 V2](https://github.com/genesisprime01/nexis365-v2) — the platform
-- [Nexis365 website](https://nexis365.com.au) — product context
-- [My GitHub](https://github.com/genesisprime01) — experiments, systems, and the
-  work in progress
+| If you want to… | Go to… |
+|---|---|
+| See the product and architecture | [Nexis365 V2](https://github.com/genesisprime01/nexis365-v2) |
+| Understand the product context | [nexis365.com.au](https://nexis365.com.au) |
+| Follow the work in progress | [my repositories](https://github.com/genesisprime01?tab=repositories) |
 
-I care about useful software, honest claims, strong provenance, and products
-that make sense to the people who have to rely on them every day.
+I care about useful software, honest claims, strong provenance, and systems that
+make sense to the people who have to rely on them every day.
 
-<p>
-  <a href="https://github.com/genesisprime01"><img src="https://img.shields.io/github/followers/genesisprime01?label=Follow&style=flat-square" alt="Follow Hasan on GitHub"></a>
-  <a href="https://github.com/genesisprime01/nexis365-v2"><img src="https://img.shields.io/github/stars/genesisprime01/nexis365-v2?label=Nexis365%20stars&style=flat-square" alt="Nexis365 stars"></a>
-</p>
+<div align="center">
+
+<sub>Built from the operations floor. Designed for the people on it.</sub>
+
+</div>
